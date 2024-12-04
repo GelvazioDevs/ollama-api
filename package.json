@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon --watch app --watch libs index.js",
+    "server": "nodemon --watch app --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +13,10 @@
   "description": "",
   "dependencies": {
     "axios": "^1.7.2",
+    "dayjs": "^1.11.13",
     "express": "^4.19.2",
-    "nodemon": "^3.1.7"
+    "install": "^0.13.0",
+    "nodemon": "^3.1.7",
+    "npm": "^10.9.1"
   }
 }
